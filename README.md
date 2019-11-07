@@ -17,23 +17,20 @@ In a single line print the number of piggy banks he should crack followed by whi
 If there are more than 1 way to open all piggy banks it can print any of them.
 ## Examples 
 **Sample Input**
-
+```
 5 
-
 2 1 2 
-
 0
-
 2 2 5
-
 0
-
 1 4
+```
 
 
 **Sample Output**
-
+```
 2 1 3
+```
 
 **Explanation**
 - The first piggy bank has 2 keys inside it, key 1 and key 2. 
@@ -45,22 +42,19 @@ If there are more than 1 way to open all piggy banks it can print any of them.
 Mahir can open all piggy banks by cracking the first and the third piggy banks. When he cracks the first piggy bank he will have key to the second piggy bank(key to the first piggy bank is useless because we already cracked it). When he crakcs the third piggy bank he will have keys to the second and the fifth piggy bank. He can open the fifth piggy bank with the key and get the key to the fourth piggy bank.
 
 **Sample Input**
-
+```
 5 
-
 1 2
-
 1 3 
-
 1 4 
-
 1 5 
-
 1 1
+```
 
 **Sample Output**
-
+```
 1 4
+```
 
 **Explanation**
 
